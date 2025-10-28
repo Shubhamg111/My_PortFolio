@@ -2,6 +2,7 @@ import { NavLink, Link } from "react-router-dom"
 import { useTheme } from "./ThemeProvider"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
+import logo from '../assets/logo.png'
 
 const nav = [
   { to: "/", label: "Home" },
@@ -22,7 +23,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 font-semibold">
           <img
-            src="/src/assets/logo.png"
+            src={logo}
             alt="Best Python instructor and Django developer in Kathmandu"
             className="w-8 h-8 rounded"
           />

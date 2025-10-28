@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import Hero from '../components/Hero'
 import { Link } from 'react-router-dom'
-import blogs from '../data/blogs.json'
+import { blogs } from '../data/blogs'
 import { FaPaintBrush, FaCode, FaBolt, FaMobileAlt, FaRocket, FaCheckCircle } from "react-icons/fa"
 import { useEffect, useState } from "react";
 import CountUp from 'react-countup'

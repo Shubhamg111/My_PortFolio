@@ -1,4 +1,4 @@
-
+import logo from '../assets/logo.png'
 import TestimonialsSlider from '../components/Testimonials'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
@@ -21,7 +21,7 @@ export default function About() {
       {/* About Me */}
       <section className="container-max mt-10 grid md:grid-cols-2 gap-8 items-start">
         <img
-          src="/src/assets/logo.png"
+          src={logo}
           alt="Best Python instructor and Django developer in Kathmandu"
           className="rounded-2xl shadow-sm border border-black/5 dark:border-white/10 
                     w-full max-w-sm object-cover mx-auto"/>
@@ -82,7 +82,7 @@ export default function About() {
 </div>
 
   {/* Floating animation keyframes */}
-  {/* <style>{`
+  <style>{`
     @keyframes float {
       0%, 100% { transform: translateY(0) rotate(0deg); }
       50% { transform: translateY(-10px) rotate(3deg); }
@@ -90,7 +90,7 @@ export default function About() {
     .animate-float {
       animation: float 4s ease-in-out infinite;
     }
-  `}</style> */}
+  `}</style>
 </section>
 
 

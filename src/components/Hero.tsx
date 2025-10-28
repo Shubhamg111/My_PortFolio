@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 import Tilt from "react-parallax-tilt"
+import profileImg from "../assets/profile2.png"
 
 export default function Hero() {
   return (
@@ -22,7 +23,7 @@ export default function Hero() {
             >
               {/* Profile Image */}
               <img
-                src="/src/assets/profile2.png"
+                src={profileImg}
                 alt="Best Python instructor and Django developer in Kathmandu"
                 className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-2xl shadow-2xl ring-2 ring-brand/40 relative z-10"
               />

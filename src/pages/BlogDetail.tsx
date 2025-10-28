@@ -1,7 +1,7 @@
 
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
-import blogs from '../data/blogs.json'
+import {blogs} from '../data/blogs'
 import { useParams, Link } from 'react-router-dom'
 import dayjs from 'dayjs'
 
