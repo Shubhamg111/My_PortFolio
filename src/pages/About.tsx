@@ -108,7 +108,7 @@ export default function About() {
 </div>
 
   {/* Floating animation keyframes */}
-  <style jsx>{`
+  <style>{`
     @keyframes float {
       0%, 100% { transform: translateY(0) rotate(0deg); }
       50% { transform: translateY(-10px) rotate(3deg); }

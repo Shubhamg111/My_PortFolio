@@ -1,0 +1,15 @@
+{
+  "name": "Subham Gupta",
+  "short_name": "SG",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/favico.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#0b111a",
+  "theme_color": "#0078ff"
+}
