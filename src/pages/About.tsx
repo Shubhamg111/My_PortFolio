@@ -64,32 +64,6 @@ export default function About() {
     A curated selection of technologies and tools I use to build modern applications.
   </p>
 
-  {/* <div className="relative mt-12 flex flex-wrap justify-center gap-6 z-10">
-  {[
-    { name: "Python", icon: "🐍", delay: 0 },
-    { name: "Django", icon: "🟢", delay: 200 },
-    { name: "React", icon: "⚛️", delay: 400 },
-    { name: "Tailwind", icon: "🌬️", delay: 600 },
-    { name: "SQL", icon: "🗄️", delay: 800 },
-    { name: "Data Viz", icon: "📊", delay: 1000 },
-  ].map((skill, index) => (
-    <div
-      key={skill.name}
-      className="group relative flex items-center px-5 py-3 rounded-full shadow-md cursor-pointer transition-transform hover:scale-110 hover:shadow-xl 
-        bg-white dark:bg-gray-900 
-        text-gray-900 dark:text-gray-100 
-        border border-gray-200 dark:border-gray-700
-        animate-float"
-      style={{
-        animationDelay: `${skill.delay}ms`,
-        transform: `rotate(${index * 15 - 30}deg) translate(${index * 6}px, ${index * -6}px)`,
-      }}
-    >
-      <span className="mr-2 text-2xl">{skill.icon}</span>
-      <span className="font-semibold">{skill.name}</span>
-    </div>
-  ))}
-  </div> */}
 
   <div className="flex flex-wrap justify-center gap-6 mt-12">
   {skills.map((skill, index) => (
@@ -108,7 +82,7 @@ export default function About() {
 </div>
 
   {/* Floating animation keyframes */}
-  <style>{`
+  {/* <style>{`
     @keyframes float {
       0%, 100% { transform: translateY(0) rotate(0deg); }
       50% { transform: translateY(-10px) rotate(3deg); }
@@ -116,7 +90,7 @@ export default function About() {
     .animate-float {
       animation: float 4s ease-in-out infinite;
     }
-  `}</style>
+  `}</style> */}
 </section>
 
 
