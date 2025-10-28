@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sara Wilsson",
+    "role": "Designer",
+    "text": "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
+    "rating": 4.5
+  },
+  {
+    "name": "John Doe",
+    "role": "Developer",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis laborum mollitia qui vero fugiat.",
+    "rating": 4
+  },
+  {
+    "name": "Priya Khanna",
+    "role": "Product Manager",
+    "text": "Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "rating": 5
+  }
+]

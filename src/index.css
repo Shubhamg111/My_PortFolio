@@ -1,0 +1,38 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring: rgba(0,120,255,.25);
+}
+
+.container-max {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-2xl px-5 py-2 font-medium shadow-sm transition;
+  @apply bg-brand text-white hover:brightness-110 focus:outline-none focus:ring-4;
+  box-shadow: 0 0 0 0 var(--ring);
+}
+.btn-outline {
+  @apply bg-transparent border border-brand text-brand hover:bg-brand hover:text-white;
+}
+
+.card {
+  @apply rounded-2xl shadow-sm border border-black/5 dark:border-white/10 bg-white dark:bg-white/5;
+}
+
+.navlink {
+  @apply text-sm md:text-base font-medium px-3 py-2 rounded-lg hover:text-brand;
+}
+.navlink-active {
+  @apply text-brand;
+}
+
+
+
+textarea{
+  resize: none;
+}
