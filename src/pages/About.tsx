@@ -1,4 +1,4 @@
-import logo from '../assets/logo.png'
+import about_me from '../assets/about_me.jpg'
 import TestimonialsSlider from '../components/Testimonials'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
@@ -20,11 +20,7 @@ export default function About() {
 
       {/* About Me */}
       <section className="container-max mt-10 grid md:grid-cols-2 gap-8 items-start">
-        <img
-          src={logo}
-          alt="Best Python instructor and Django developer in Kathmandu"
-          className="rounded-2xl shadow-sm border border-black/5 dark:border-white/10 
-                    w-full max-w-sm object-cover mx-auto"/>
+       
         <div>
           <h1 className="text-3xl font-bold">About</h1>
           <p className="mt-4 leading-7 opacity-90 text-justify">
@@ -33,6 +29,16 @@ export default function About() {
           <p className="mt-3 opacity-90 text-justify">
             I have hands‑on experience across Python, Django, JavaScript, and SQL, plus data analysis, visualization, and ML. I focus on reliable, user‑centric products that deliver real value.
           </p>
+        </div>
+        
+        <div className="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden">
+          <img
+            src={about_me}
+            alt="Best Python instructor and Django developer in Kathmandu"
+            className="w-full object-cover"
+          />
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/20 dark:bg-black/20"></div>
         </div>
       </section>
 
