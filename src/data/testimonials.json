@@ -1,20 +1,20 @@
 [
   {
-    "name": "Sara Wilsson",
-    "role": "Designer",
-    "text": "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
+    "name": "Bibek Rai",
+    "role": "Student",
+    "text": "Shubham sir is an excellent Python instructor. His teaching style is clear, practical, and easy to follow, even for beginners. He focuses on real-world examples rather than just theory, which helped me understand how to apply Python in actual projects. I’m really thankful for his guidance and support.",
     "rating": 4.5
   },
   {
-    "name": "John Doe",
+    "name": "Pujan Basnet",
     "role": "Developer",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis laborum mollitia qui vero fugiat.",
+    "text": "I had the opportunity to work with Shubham sir on a web development project, and I was impressed by his professionalism and attention to detail. He delivered a clean, responsive, and user-friendly website on time. His communication was smooth, and he made the entire process very comfortable. Highly recommended!",
     "rating": 4
   },
   {
-    "name": "Priya Khanna",
-    "role": "Product Manager",
-    "text": "Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "name": "Saroj Bajagain",
+    "role": "Developer",
+    "text": "Learning Python course with Shubham sir completely changed how I approach programming. He explains complex concepts in a simple way and ensures that every student truly understands. His mentorship helped me build confidence and start creating my own web applications. A great mentor and a skilled developer.",
     "rating": 5
   }
 ]

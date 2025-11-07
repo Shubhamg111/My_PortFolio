@@ -7,14 +7,6 @@ import testimonials from '../data/testimonials.json'
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 
 export default function TestimonialsSlider() {
-//   const [testimonials, setTestimonials] = useState([]);
-
-//   useEffect(() => {
-//     fetch("/src/data/testimonials.json")            // fetch from public/
-//       .then(res => res.json())
-//       .then(data => setTestimonials(data))
-//       .catch(err => console.error("Error loading testimonials:", err));
-//   }, []);
 
   return (
     <section className="max-w-6xl mx-auto mt-20 px-4">
