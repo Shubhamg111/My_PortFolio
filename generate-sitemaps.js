@@ -1,8 +1,8 @@
 import { SitemapStream, streamToPromise } from 'sitemap'
 import { createWriteStream } from 'fs'
-import glob from 'glob'
+import * as glob from 'glob';
 
-const siteUrl = 'https://yourdomain.com'
+const siteUrl = 'https://subhamgupta.com'
 
 async function generate() {
   const pages = glob.sync('src/pages/**/*.tsx') 

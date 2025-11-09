@@ -17,8 +17,8 @@ export default function BlogList() {
               <img src={b.cover} alt={b.title} title={b.title} className="w-full h-44 object-cover" />
               <div className="p-5">
                 <p className="text-xs uppercase tracking-wider opacity-60">{b.category}</p>
-                <h3 className="text-lg font-semibold mt-1">{b.title}</h3>
-                <p className="mt-2 opacity-80">{b.excerpt}</p>
+                <h3 className="text-lg font-semibold mt-1">{b.title.slice(0,50)}..</h3>
+                <p className="mt-2 opacity-80">{b.excerpt.slice(0,115)}{b.excerpt.length>120?'...':''} </p>
                 <Link className="btn mt-4" to={`/blog/${b.id}`}>Read more</Link>
               </div>
             </article>

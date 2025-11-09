@@ -9,7 +9,7 @@
     "preview": "npx vite preview",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "generate:sitemap": "ts-node generate-sitemap.js"
+    "generate:sitemap": "npx ts-node generate-sitemaps.js"
   },
 
   "dependencies": {
