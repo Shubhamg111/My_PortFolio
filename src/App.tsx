@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
-import Work from './pages/Work'
 import BlogList from './pages/BlogList'
 import BlogDetail from './pages/BlogDetail'
 import Contact from './pages/Contact'
@@ -18,7 +17,6 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/work" element={<Work />} />
         <Route path="/blog" element={<BlogList />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
         <Route path="/contact" element={<Contact />} />
