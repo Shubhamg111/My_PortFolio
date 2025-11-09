@@ -8,9 +8,9 @@ const siteUrl = 'https://subhamgupta.com'
 // In a real scenario, this data would likely be read from a local JSON file or a database.
 const blogPostSlugs = [
     'the-most-in-demand-programming-skills-for-2025',
-    'understanding-javascript-promises',
-    'my-guide-to-vite-and-react',
-    // ... add all your blog post slugs here
+    'getting-started-with-python',
+    'django-vs-flask-2025',
+    
 ];
 
 async function generate() {
