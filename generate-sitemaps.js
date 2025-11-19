@@ -2,7 +2,7 @@ import { SitemapStream, streamToPromise } from 'sitemap'
 import { createWriteStream } from 'fs'
 import * as glob from 'glob';
 
-const siteUrl = 'https://subhamgupta.com'
+const siteUrl = 'https://subhamgupta.com.np'
 
 // 1. **MOCK DATA:** Replace this with the actual array of blog post IDs/slugs
 // In a real scenario, this data would likely be read from a local JSON file or a database.

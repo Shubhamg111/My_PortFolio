@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url><loc>https://subhamgupta.com/Services</loc></url><url><loc>https://subhamgupta.com/NotFound</loc></url><url><loc>https://subhamgupta.com/Home</loc></url><url><loc>https://subhamgupta.com/Contact</loc></url><url><loc>https://subhamgupta.com/BlogList</loc></url><url><loc>https://subhamgupta.com/BlogDetail</loc></url><url><loc>https://subhamgupta.com/About</loc></url><url><loc>https://subhamgupta.com/blog/the-most-in-demand-programming-skills-for-2025</loc></url><url><loc>https://subhamgupta.com/blog/getting-started-with-python</loc></url><url><loc>https://subhamgupta.com/blog/django-vs-flask-2025</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <url>
+    <loc>https://subhamgupta.com.np/</loc>
+  </url>
+
+  <url>
+    <loc>https://subhamgupta.com.np/about</loc>
+  </url>
+
+  <url>
+    <loc>https://subhamgupta.com.np/contact</loc>
+  </url>
+
+  <url>
+    <loc>https://subhamgupta.com.np/services</loc>
+  </url>
+
+  <url>
+    <loc>https://subhamgupta.com.np/blog</loc>
+  </url>
+
+  <!-- Blog detail pages -->
+  <url>
+    <loc>https://subhamgupta.com.np/blog/the-most-in-demand-programming-skills-for-2025</loc>
+  </url>
+
+  <url>
+    <loc>https://subhamgupta.com.np/blog/getting-started-with-python</loc>
+  </url>
+
+  <url>
+    <loc>https://subhamgupta.com.np/blog/django-vs-flask-2025</loc>
+  </url>
+
+</urlset>
